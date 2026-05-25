@@ -1065,6 +1065,12 @@ await jest.runAllTimersAsync();
 await flushPromises();
 ```
 
+## Used by
+
+- Rate-limiting external API calls
+- Throttling concurrent file system operations
+- Batch processing background jobs
+
 ## Maintainers
 
 - [Sindre Sorhus](https://github.com/sindresorhus)

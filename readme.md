@@ -36,6 +36,13 @@ Note that the project is feature complete. We are happy to review pull requests,
 
 ---
 
+## Used by
+
+- Rate-limiting external API calls
+- Throttling concurrent file system operations
+- Batch processing background jobs
+- Coordinating web scraping requests to stay under rate limits
+
 ## Install
 
 ```sh
@@ -1064,12 +1071,6 @@ jest.useFakeTimers();
 await jest.runAllTimersAsync();
 await flushPromises();
 ```
-
-## Used by
-
-- Rate-limiting external API calls
-- Throttling concurrent file system operations
-- Batch processing background jobs
 
 ## Maintainers
 
